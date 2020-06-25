@@ -1,0 +1,26 @@
+{
+  "name": "EcommerceAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec npx babel-node src/server.js"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "json"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/node": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
+  }
+}
