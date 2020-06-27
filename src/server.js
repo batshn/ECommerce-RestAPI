@@ -17,6 +17,8 @@ mongoose.connect('mongodb://localhost/ECommerce', {
 app.use(bodyParser.urlencoded({ extended: true}))
 app.use(bodyParser.json());
 
+
+
 routes(app);
 
 app.get('/', (req, res) =>
